@@ -1,6 +1,6 @@
 cask "hoply" do
-  version "0.1.0"
-  sha256 "5a90cc6c54405ff0be130b156f1db2590489733fdf705cc8b3906a59d1b6bf41"
+  version "0.1.1"
+  sha256 "19773903c91007745ca829203bea7ba0efcb17854af668badc8c165f1af1a24c"
 
   url "https://github.com/Milos5611/homebrew-hoply/releases/download/v#{version}/Hoply-#{version}.dmg"
   name "Hoply"
@@ -13,7 +13,7 @@ cask "hoply" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: :sonoma
 
   app "Hoply.app"
 
