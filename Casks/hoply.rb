@@ -1,6 +1,6 @@
 cask "hoply" do
-  version "0.1.1"
-  sha256 "19773903c91007745ca829203bea7ba0efcb17854af668badc8c165f1af1a24c"
+  version "0.1.2"
+  sha256 "313b20db6ef4cb06d1dba0b17ee15e597de1c86a85fccb0c63c4a1afcb8a7dee"
 
   url "https://github.com/Milos5611/homebrew-hoply/releases/download/v#{version}/Hoply-#{version}.dmg"
   name "Hoply"
