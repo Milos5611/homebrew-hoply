@@ -1,8 +1,8 @@
 cask "hoply" do
-  version "0.1.5"
-  sha256 "dba30417a3df67fd6ab656455026a1c06f6ae5a6160f7d960840b027fecb4350"
+  version "0.1.6"
+  sha256 "a3948efe4e60a8405668b411ff48bbcc59efb6b7584d3a9850aea93142dcfa08"
 
-  url "https://github.com/Milos5611/homebrew-hoply/releases/download/v#{version}/Hoply-#{version}.dmg"
+  url "https://github.com/Milos5611/hoply/releases/download/v#{version}/Hoply-#{version}.dmg"
   name "Hoply"
   desc "Menu bar hub for AI coding agents and local model servers"
   homepage "https://hoply.dev"
@@ -21,6 +21,7 @@ cask "hoply" do
     "~/Library/Application Support/Hoply",
     "~/Library/Caches/com.coolcraftcoders.hoply",
     "~/Library/HTTPStorages/com.coolcraftcoders.hoply",
+    "~/Library/HTTPStorages/com.coolcraftcoders.hoply.binarycookies",
     "~/Library/Preferences/com.coolcraftcoders.hoply.plist",
   ]
 end
